@@ -2,9 +2,8 @@ from flask import Flask, jsonify, request
 
 app = Flask(__name__)
 
-# In-memory storage for todos
 todos = []
-todo_id_counter = 1  # Auto-increment ID
+todo_id_counter = 1  
 
 @app.route('/api/todos', methods=['GET'])
 def get_todos():
@@ -40,6 +39,5 @@ def toggle_todo(todo_id):
             todo["completed"] = not todo["completed"]
             return jsonify(todo)
     return jsonify({"error": "Todo not found"}), 404
-
 if __name__ == '__main__':
     app.run(debug=True)
