@@ -1,0 +1,17 @@
+# Ignore Python virtual environment
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore environment variables and logs
+.env
+*.log
+
+# Ignore VSCode settings (if using VSCode)
+.vscode/
+
+# Ignore compiled files
+*.swp
+.DS_Store
