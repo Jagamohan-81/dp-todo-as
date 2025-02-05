@@ -20,7 +20,7 @@ function AddTodo({ addTodo }) {
           value={title}
           onChange={(e) => setTitle(e.target.value)}
         />
-        <Button type="submit" variant="primary">Add</Button>
+        <Button type="submit" variant="primary" disabled={!title.trim()}>Add</Button>
       </InputGroup>
     </Form>
   );
