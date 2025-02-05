@@ -12,7 +12,7 @@ A simple **Todo List** application built using **Flask** (Backend) and **React**
 
 ## 📸 Screenshots
 ### Home Page
-![Home Page](/lit.png)
+![Home Page](/list.png)
 
 
 ---
