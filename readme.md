@@ -25,20 +25,21 @@ A simple **Todo List** application built using **Flask** (Backend) and **React**
 ---
 
 ## 🏗 Project Structure
-📦 dp-todo-as
- ┣ 📂 server  # Flask API
- ┃ ┣ 📜 app.py  # Main Flask application
- ┃ ┣ 📜 requirements.txt  # Backend dependencies
- ┣ 📂 client  # React App
- ┃ ┣ 📂 src
- ┃ ┃ ┣ 📜 App.jsx  # Main component
- ┃ ┃ ┣ 📂 components
- ┃ ┃ ┃ ┣ 📜 TodoList.jsx  # List component
- ┃ ┃ ┃ ┣ 📜 TodoItem.jsx  # Single Todo Item component
- ┃ ┣ 📜 package.json  # Frontend dependencies
- ┣ 📜 README.md  # Project Documentation
+```
+    📦 dp-todo-as
+    ┣ 📂 server  # Flask API
+    ┃ ┣ 📜 app.py  # Main Flask application
+    ┃ ┣ 📜 requirements.txt  # Backend dependencies
+    ┣ 📂 client  # React App
+    ┃ ┣ 📂 src
+    ┃ ┃ ┣ 📜 App.jsx  # Main component
+    ┃ ┃ ┣ 📂 components
+    ┃ ┃ ┃ ┣ 📜 TodoList.jsx  # List component
+    ┃ ┃ ┃ ┣ 📜 TodoItem.jsx  # Single Todo Item component
+    ┃ ┣ 📜 package.json  # Frontend dependencies
+    ┣ 📜 README.md  # Project Documentation
 
-
+```
 ---
 
 ## 🔧 Installation & Setup
